@@ -3,8 +3,8 @@
 <head>
 	<title>Joy Kim</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Rancho' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="joykim.css">
+	<link href='http://fonts.googleapis.com/css?family=Podkova:400,700|Merriweather:400,900|Cabin|Cabin+Condensed' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/joykim.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	
 	<!-- Google Analytics -->
@@ -33,16 +33,27 @@
 				<h2>I am a PhD student in Computer Science at <a href="http://www.stanford.edu">Stanford University</a>, 
 					with an interest in social computing and creativity on the web.</h2>
 			</hgroup>
-			<a href="mailto:jojo0808@stanford.edu">jojo0808[at]stanford.edu</a> | 
-			<a class="resume" href="resume.pdf">Resume</a>
 			<div id="contact">
+				<a href="mailto:jojo0808@stanford.edu">jojo0808[at]stanford.edu</a> | 
+				<a class="resume" href="resume.pdf">Resume</a>
 				<ul>
-					<li id="facebook"><a href="https://www.facebook.com/jojo080889"><img src="images/facebook_letterpress.png" alt="My Facebook profile" /></a></li>
-					<li id="linkedin"><a href="http://www.linkedin.com/pub/joy-kim/33/6b3/76b"><img src="images/linkedin_letterpress.png" alt="My LinkedIn profile" /></a></li>
+					<li id="facebook"><a href="https://www.twitter.com/joyokim"><img src="images/twitter.png" alt="My Facebook profile" /></a></li>
+					<li id="linkedin"><a href="http://www.linkedin.com/pub/joy-kim/33/6b3/76b"><img src="images/linkedin.png" alt="My LinkedIn profile" /></a></li>
 				</ul>
 			</div>
 		</header>
 		<div id="content">
+			<nav>
+				<ul>
+					<li><a href="#top">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a href="#awards">Awards</a></li>
+					<li><a href="#bio">Bio</a></li>
+					<li><a href="/blog">Blog</a></li>
+				</ul>
+			</nav>
+			<a name="top">
 			<div id="current_projects">
 			</div>
 			<div id="projects">
@@ -51,10 +62,10 @@
 				</hgroup>
 				<div class="project">
 					<div class="project-header">
-						<a href="http://www.cs.washington.edu/education/courses/cse440/11sp/projects/kibisis/about.html"><img src="projects/kibisis/kibisis.png" alt="Kibisis" /></a>
+						<a href="http://ensemble.stanford.edu"><img src="projects/ensemble/ensemble.png" alt="Ensemble" /></a>
 					</div>
 					<div class="project-desc">
-						Securely aggregate all your various forms of money and easily pay back your friends and family, using just one mobile app. CSE 440 (Intro to HCI) class project at UW. Interactive prototype only.
+						A collaborative writing platform based on the idea that the crowd and an individual author have complementary creative strengths -- while the crowd is good at generating ideas and choosing the good from the bad, the individual author is good at designing the telling of the story and holding to a solid creative direction. (<a href="http://ensemble.stanford.edu">website</a> | <a href="projects/ensemble/ensemble_paper.pdf">paper</a>)
 					</div>
 				</div>
 				
@@ -63,7 +74,7 @@
 						<a href="http://mobileaccessibility.cs.washington.edu/tapbeats/"><img src="projects/tapbeats/tapbeats.png" alt="TapBeats" /></a>
 					</div>
 					<div class="project-desc">
-						An accessible casual music game for Android mobile phones. CSE481H (Accessibility Capstone) class project at UW. Poster presentation at ASSETS 2011 (poster, paper).
+						An accessible casual music game for Android mobile phones. CSE481H (Accessibility Capstone) class project at UW. Poster presentation at ASSETS 2011. (<a href="http://mobileaccessibility.cs.washington.edu/tapbeats/">website</a> | <a href="projects/tapbeats/tapbeats_paper.pdf">paper</a>)
 					</div>
 				</div>
 				
@@ -72,25 +83,7 @@
 						<a href="http://mobileasl.cs.washington.edu/"><img src="projects/mobileasl/mobileasl.png" alt="MobileASL" /></a>
 					</div>
 					<div class="project-desc">
-						A video compression project at UW with the goal of making wireless cell phone communication through sign language a reality in the U.S. I helped develop the user interface and run a pilot user study. Work in progress at CHI 2011 (poster, paper).
-					</div>
-				</div>
-				
-				<div class="project">
-					<div class="project-header">
-						<img src="projects/ilovebees/ilovebees.jpg" alt="I Love Bees" />
-					</div>
-					<div class="project-desc">
-						I conducted a case study during the I Love Bees Alternate Reality Game where a player's interaction with a game character upset the existing overall goals of the group. Independent study with Brian Landry (paper).
-					</div>
-				</div>
-					
-				<div class="project">
-					<div class="project-header">
-						<a href="http://cubist.cs.washington.edu/projects/10sp/cse403/c/www/researchain.php"><img src="projects/researchain/researchain.png" alt="ResearChain" /></a>
-					</div>
-					<div class="project-desc">
-						Explore how different researchers are connected through coauthorships on research papers. CSE 403 (Software Engineering) class project at UW.
+						A video compression project at UW with the goal of making wireless cell phone communication through sign language a reality in the U.S. I helped develop the user interface and run a pilot user study. Work in progress at CHI 2011. (<a href="http://mobileasl.cs.washington.edu/">website</a> | <a href="projects/mobileasl/mobileasl_chi_wip.pdf">paper</a>)
 					</div>
 				</div>
 			</div>
@@ -98,7 +91,7 @@
 				<hgroup><h1>Publications</h1></hgroup>
 				<ul>
 					<li>
-					<strong>Kim, J.</strong>, Cheng, J. & Bernstein, M. (2014). Exploring Complementary Strengths of Leaders and Crowds in Creative Collaboration. To appear at CSCW 2014.
+					<strong>Kim, J.</strong>, Cheng, J. & Bernstein, M. (2014). Exploring Complementary Strengths of Leaders and Crowds in Creative Collaboration. Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing (CSCW '14). ACM, New York, NY, USA, 745-755.
 					</li>
 					<li>
 					<strong>J. Kim</strong>, J. Ricaurte, "TapBeats: Accessible and Mobile Casual Gaming," Proceedings of ASSETS 2011: The 13th International ACM SIGACCESS Conference on Computers and Accessibility, Dundee, Scotland, October 24-26, 2011. New York: ACM Press, pp. 285-285.
