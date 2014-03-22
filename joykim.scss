@@ -26,7 +26,7 @@ header {
 	h1 {
 		font-family: "Podkova", cursive;
 		text-transform: lowercase;
-		font-size: 6em;
+		font-size: 5em;
 		line-height: 1em;
 		color: $primary-color;
 	}
@@ -150,6 +150,7 @@ header {
 
 		h1 {
 			text-align: right;
+			font-size: 6em;
 		}
 
 		h2 {

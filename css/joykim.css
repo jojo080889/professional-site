@@ -15,7 +15,7 @@ header {
   header h1 {
     font-family: "Podkova", cursive;
     text-transform: lowercase;
-    font-size: 6em;
+    font-size: 5em;
     line-height: 1em;
     color: #69d2e7; }
   header h2 {
@@ -94,7 +94,8 @@ header {
     margin-right: 2em;
     position: fixed; }
     header h1 {
-      text-align: right; }
+      text-align: right;
+      font-size: 6em; }
     header h2 {
       text-align: right; }
     header .portrait {
