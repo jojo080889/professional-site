@@ -11,31 +11,25 @@ body {
   position: relative; }
 
 header {
-  text-align: left;
-  width: 350px;
-  float: left;
-  margin-right: 2em;
-  position: fixed; }
+  text-align: center; }
   header h1 {
     font-family: "Podkova", cursive;
     text-transform: lowercase;
     font-size: 6em;
     line-height: 1em;
-    text-align: right;
     color: #69d2e7; }
   header h2 {
     font-size: 1.2em;
     font-weight: normal;
     line-height: 1.5em;
-    text-align: right;
     max-width: 700px;
     margin: auto; }
   header .portrait {
-    text-align: right; }
+    text-align: center; }
     header .portrait img {
-      width: 65%; }
+      width: 25%;
+      min-width: 150px; }
   header #contact {
-    text-align: right;
     margin-top: 1em; }
     header #contact ul {
       list-style: none;
@@ -45,23 +39,11 @@ header {
         header #contact ul li img {
           width: 50px; }
 
-.resume {
-  text-align: center;
-  text-transform: lowercase;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 12px 0; }
-
 #content {
-  position: relative;
-  margin-left: 380px; }
+  position: relative; }
   #content nav {
-    position: fixed;
-    top: 0;
-    padding: 1em;
-    right: 0;
-    left: 380px;
-    background: white; }
+    text-align: center;
+    padding: 1em; }
     #content nav ul {
       margin: 0;
       font-size: 1.2em; }
@@ -72,25 +54,21 @@ header {
   #content h1 {
     font-family: "Cabin", sans-serif;
     margin-top: 50px;
-    color: #a7dbd8; }
-
-#projects .project {
-  margin: 30px auto; }
-
-#projects .project-header {
-  text-align: center;
-  margin: 10px 0; }
-
-#projects .project-header img {
-  width: 80%;
-  text-align: center; }
-
-#publications ul {
-  list-style: none;
-  margin: 0; }
-
-#publications ul li {
-  margin-bottom: 20px; }
+    color: #a7dbd8;
+    text-align: center; }
+  #content #projects .project {
+    margin: 30px auto; }
+  #content #projects .project-header {
+    text-align: center;
+    margin: 10px 0; }
+    #content #projects .project-header img {
+      width: 80%;
+      text-align: center; }
+  #content #publications ul {
+    list-style: none;
+    margin: 0; }
+    #content #publications ul li {
+      margin-bottom: 20px; }
 
 /* Tablet */
 @media (min-width: 768px) {
@@ -110,5 +88,30 @@ header {
     padding-left: 20px; } }
 /* Desktop */
 @media (min-width: 970px) {
-  #contact ul li img {
-    width: 40px; } }
+  header {
+    width: 350px;
+    float: left;
+    margin-right: 2em;
+    position: fixed; }
+    header h1 {
+      text-align: right; }
+    header h2 {
+      text-align: right; }
+    header .portrait {
+      text-align: right; }
+      header .portrait img {
+        width: 65%; }
+    header #contact {
+      text-align: right; }
+
+  #content {
+    margin-left: 380px; }
+    #content nav {
+      text-align: left;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 380px;
+      background: white; }
+    #content h1 {
+      text-align: left; } }
